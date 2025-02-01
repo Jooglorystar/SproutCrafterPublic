@@ -1,2 +1,0 @@
-﻿itemCode,itemName,itemDescription,itemSprite,buyPrice,sellPrice,isCanStack,maxStack,dropItemPrefab,itemType,testName,testValue,isActive
-201,Test,Testing,Images/Crops/Tomato,10,5,FALSE,99,Prefabs/Crops/PotatoSeed,Seed,test,111,TRUE

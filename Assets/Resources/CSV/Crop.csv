@@ -1,2 +1,0 @@
-﻿itemCode,itemName,itemDescription,itemSprite,buyPrice,sellPrice,isCanStack,maxStack,dropItemPrefab,itemType
-101,Potato,A harvested potato,Images/Crops/Potato,0,15,TRUE,99,Prefabs/Crops/Potato,Crop
