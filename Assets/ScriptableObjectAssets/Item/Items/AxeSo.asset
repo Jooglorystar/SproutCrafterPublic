@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64bfa1f85ea92440ae1b9ebbb85e1ee, type: 3}
+  m_Name: AxeSo
+  m_EditorClassIdentifier: 
+  itemCode: 2
+  itemName: Axe
+  itemDescription: Axe
+  itemSprite: {fileID: -606602412, guid: c21f675b99599ef48a92ca3c8f406022, type: 3}
+  buyPrice: 10
+  sellPrice: 10
+  isCanStack: 0
+  maxStack: 1
+  dropItemPrefab: {fileID: 0}
+  itemType: 0
+  cursorType: 4

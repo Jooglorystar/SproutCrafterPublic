@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - BoundsConfiner
+  - NPC
+  - Chest
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Interactable
+  - Item
+  - Tree
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground1
+    uniqueID: 1379813755
+    locked: 0
+  - name: Ground2
+    uniqueID: 1519949149
+    locked: 0
+  - name: Ground3
+    uniqueID: 1595901279
+    locked: 0
+  - name: FishingGround
+    uniqueID: 4176619685
+    locked: 0
+  - name: GroundDecoration1
+    uniqueID: 2938528687
+    locked: 0
+  - name: GroundDecoration2
+    uniqueID: 1635650571
+    locked: 0
+  - name: Instances
+    uniqueID: 2624632265
+    locked: 0
+  - name: Front1
+    uniqueID: 1640760361
+    locked: 0
+  - name: Front2
+    uniqueID: 1330648859
+    locked: 0
+  - name: Collision
+    uniqueID: 2092553567
+    locked: 0
+  - name: Effects
+    uniqueID: 2333780039
+    locked: 0

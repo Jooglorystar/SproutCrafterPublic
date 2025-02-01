@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a46323360efdb54a8cf9d6bb200c6e2, type: 3}
+  m_Name: Mane
+  m_EditorClassIdentifier: 
+  npcName: 0
+  faceSprite:
+  - {fileID: 1911148223, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: 1884446935, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: 811334438, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: 1574370659, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: -261687003, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: -964194122, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: 318508660, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}
+  - {fileID: -2042005996, guid: e7129e69bb5929f4b8828dd9294dbc4e, type: 3}

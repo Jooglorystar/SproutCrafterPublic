@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4a41b80e2a11640b279833446679cb, type: 3}
+  m_Name: GoogleSheetSO
+  m_EditorClassIdentifier: 
+  ItemList:
+  - itemCode: 1
+    itemName: Hoe
+    itemDescription: Hoe
+    itemSprite: {fileID: 892260253, guid: c21f675b99599ef48a92ca3c8f406022, type: 3}
+    buyPrice: 5
+    sellPrice: 0
+    isCanStack: 1
+    maxStack: 1
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 0
+  - itemCode: 2
+    itemName: Axe
+    itemDescription: Axe
+    itemSprite: {fileID: -606602412, guid: c21f675b99599ef48a92ca3c8f406022, type: 3}
+    buyPrice: 5
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 1
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 0
+  - itemCode: 3
+    itemName: WateringCan
+    itemDescription: WateringCan
+    itemSprite: {fileID: 1589125420, guid: c21f675b99599ef48a92ca3c8f406022, type: 3}
+    buyPrice: 5
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 1
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 0
+  - itemCode: 4
+    itemName: FishingRod
+    itemDescription: FishingRod
+    itemSprite: {fileID: 21300000, guid: 44a9251bf3262a14686f96200ef1df1f, type: 3}
+    buyPrice: 5
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 1
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 0
+  ResourceList:
+  - itemCode: 20000
+    itemName: OakTree
+    itemDescription: OakWood
+    itemSprite: {fileID: 34235433, guid: 272bca4bee7c9b249a5b56e6e8f41500, type: 3}
+    buyPrice: 10
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 4
+    dropAmount: 10
+    requiredTool: Axe
+    maxGrowthStage: 2
+    growTime: 3
+    health: 10
+  SeedList:
+  - itemCode: 40000
+    itemName: Tomato Seed
+    itemDescription: Seed of Tomato
+    itemSprite: {fileID: 77445934, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30000
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40001
+    itemName: Beetroot Seed
+    itemDescription: Seed of Beetroot
+    itemSprite: {fileID: -235126963, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30001
+    maxGrowthStage: 3
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40002
+    itemName: Blueberry Seed
+    itemDescription: Seed of Blueberry
+    itemSprite: {fileID: -1394591299, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30002
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40003
+    itemName: Cabbage Seed
+    itemDescription: Seed of Cabbage
+    itemSprite: {fileID: 873323920, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30003
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40004
+    itemName: Cherry Seed
+    itemDescription: Seed of Cherry
+    itemSprite: {fileID: -33313122, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30004
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40005
+    itemName: Chili Pepper Seed
+    itemDescription: Seed of Chili Pepper
+    itemSprite: {fileID: 1416461647, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30005
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40006
+    itemName: Eggplant Seed
+    itemDescription: Seed of Eggplant
+    itemSprite: {fileID: 1051427442, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30006
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40007
+    itemName: Grapes Seed
+    itemDescription: Seed of Grapes
+    itemSprite: {fileID: -1458274855, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30007
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  - itemCode: 40008
+    itemName: Rasberry Seed
+    itemDescription: Seed of Rasberry
+    itemSprite: {fileID: -719643206, guid: 39f07944c850d5148994efcc3cb227de, type: 3}
+    buyPrice: 10
+    sellPrice: 5
+    isCanStack: 1
+    maxStack: 100
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 6
+    linkedSeed: 30008
+    maxGrowthStage: 4
+    growTime: 3
+    plantingSeasons: 0
+    tileType: 0
+    minYield: 1
+    maxYield: 3
+  CropList:
+  - itemCode: 30000
+    itemName: Tomato
+    itemDescription: Tomato Crop
+    itemSprite: {fileID: 272940486, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30001
+    itemName: Beetroot
+    itemDescription: Beetroot Crop
+    itemSprite: {fileID: 1758516757, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30002
+    itemName: Blueberry
+    itemDescription: Blueberry Crop
+    itemSprite: {fileID: -798820678, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30003
+    itemName: Cabbage
+    itemDescription: Cabbage Crop
+    itemSprite: {fileID: 2098283402, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30004
+    itemName: Cherry
+    itemDescription: Cherry Crop
+    itemSprite: {fileID: 1586392095, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30005
+    itemName: Chili_Pepper
+    itemDescription: Chili_Pepper Crop
+    itemSprite: {fileID: -704125933, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30006
+    itemName: Eggplant
+    itemDescription: Eggplant Crop
+    itemSprite: {fileID: 1390296820, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30007
+    itemName: Grapes
+    itemDescription: Grapes Crop
+    itemSprite: {fileID: -1637504968, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  - itemCode: 30008
+    itemName: Rasberry
+    itemDescription: Rasberry Crop
+    itemSprite: {fileID: -1155213393, guid: e3d108aeac66f00439448a6e870c5720, type: 3}
+    buyPrice: 1
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 5
+  FishList:
+  - itemCode: 1000
+    itemName: Seahorse
+    itemDescription: This is Seahorse
+    itemSprite: {fileID: 1142928579, guid: 6ad5fac9ec2eb1b4eb0c74fec0fe5025, type: 3}
+    sellPrice: 10
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 2
+  - itemCode: 1001
+    itemName: FancyCarp
+    itemDescription: This is FancyCarp
+    itemSprite: {fileID: -1968292511, guid: fe67c05c86953c6429173151e67661e7, type: 3}
+    sellPrice: 0
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 2
+  - itemCode: 1002
+    itemName: Flatfish
+    itemDescription: This is Flatfish
+    itemSprite: {fileID: 557813009, guid: 92ba5c9f567bbba4597d824707bb99f5, type: 3}
+    sellPrice: 7
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 2
+  - itemCode: 1003
+    itemName: Goldfish
+    itemDescription: This is Goldfish
+    itemSprite: {fileID: -1896981468, guid: b8671d1196c2e2b468d72de4f5090eec, type: 3}
+    sellPrice: 3
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 2
+  - itemCode: 1004
+    itemName: Blowfish
+    itemDescription: This is Blowfish
+    itemSprite: {fileID: 1759016203, guid: db918026e4b4876419b5ac47482fa26d, type: 3}
+    sellPrice: 1000
+    isCanStack: 1
+    maxStack: 99
+    dropItemPrefab: {fileID: 5929945389911735831, guid: 78bbb9feb81e7fc448a700fa4f3b5e69, type: 3}
+    ItemType: 2

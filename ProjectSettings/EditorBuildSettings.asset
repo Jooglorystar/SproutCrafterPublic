@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/InGame/Main/Title.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/InGame/Main/InGame.unity
+    guid: c2d43690d2083454c8c51bf96eb88bc1
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Farm.unity
+    guid: 77a7a14e634b5f5439a4a77ba5f809b4
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Home.unity
+    guid: 0553a6b7c43967845831045c109a0551
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Village.unity
+    guid: f58dce7ba502d5b49acf2aed8563c475
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/ResourcesPlace.unity
+    guid: 91fb2542a11bb6944a0f7fc1d8e90cfb
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Jungle.unity
+    guid: 88ba7dc3b6d87b547b162359f08ecc16
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Fishing.unity
+    guid: bc02948361cbb6b4282478a85c6e8e65
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Bridge.unity
+    guid: b11f3bdcf92cc534f9fc6dd6983af8dd
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/Beach.unity
+    guid: 45706dcd40d99264e99101de07f0f3a7
+  - enabled: 1
+    path: Assets/Scenes/InGame/NPCHome/EventMap.unity
+    guid: 171669de8d24caa44b2ce863e610af96
+  - enabled: 1
+    path: Assets/Scenes/InGame/Place/GeneralStore.unity
+    guid: 7ad8b1e3503ad7742bdfa80b71c84ec4
+  m_configObjects: {}

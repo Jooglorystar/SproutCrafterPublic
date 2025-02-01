@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Growth
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 0
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_IgnorePlatformSupport: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: f9f56d303a9c09d4fad2c7f20aa0fb9b, type: 3}
+    - {fileID: 2800000, guid: 1a417291315b24b4caa0b0afbac0e827, type: 3}
+    - {fileID: 2800000, guid: 5afe425570211bf4994cafb62b250fd6, type: 3}
+    - {fileID: 2800000, guid: 9ff73d6a2a8b89b41856e193e93187b9, type: 3}
+    - {fileID: 2800000, guid: 6ff0d18f14c4f9a44a4dd444583b7799, type: 3}
+    - {fileID: 2800000, guid: d01bb1b105ef9694293f4b202c9c011b, type: 3}
+    - {fileID: 2800000, guid: 669ca67ba9fc3634db31a5ae0f6e6558, type: 3}
+    - {fileID: 2800000, guid: fd743c7ac1b9fae498a443d793e39ca0, type: 3}
+    - {fileID: 2800000, guid: af511d1f842fdb84e847becc2c849a26, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+    packedSpriteRenderDataKeys:
+    - f9f56d303a9c09d4fad2c7f20aa0fb9b: 1919052159
+    - f9f56d303a9c09d4fad2c7f20aa0fb9b: -1733884614
+    - f9f56d303a9c09d4fad2c7f20aa0fb9b: 2099297955
+    - f9f56d303a9c09d4fad2c7f20aa0fb9b: 92700472
+    - 1a417291315b24b4caa0b0afbac0e827: -1657799990
+    - 1a417291315b24b4caa0b0afbac0e827: 90295232
+    - 1a417291315b24b4caa0b0afbac0e827: 634165416
+    - 1a417291315b24b4caa0b0afbac0e827: 1336736559
+    - 1a417291315b24b4caa0b0afbac0e827: 1453692270
+    - d01bb1b105ef9694293f4b202c9c011b: 2022781431
+    - d01bb1b105ef9694293f4b202c9c011b: -480123727
+    - d01bb1b105ef9694293f4b202c9c011b: 711486072
+    - d01bb1b105ef9694293f4b202c9c011b: 1447240577
+    - d01bb1b105ef9694293f4b202c9c011b: -1084673679
+    - 5afe425570211bf4994cafb62b250fd6: 2094171987
+    - 5afe425570211bf4994cafb62b250fd6: 2000851915
+    - 5afe425570211bf4994cafb62b250fd6: 1423827956
+    - 5afe425570211bf4994cafb62b250fd6: 1389955079
+    - 5afe425570211bf4994cafb62b250fd6: -1173272922
+    - 9ff73d6a2a8b89b41856e193e93187b9: -358011574
+    - 9ff73d6a2a8b89b41856e193e93187b9: -1390309588
+    - 9ff73d6a2a8b89b41856e193e93187b9: 926774833
+    - 9ff73d6a2a8b89b41856e193e93187b9: 527670919
+    - 9ff73d6a2a8b89b41856e193e93187b9: -2080721399
+    - fd743c7ac1b9fae498a443d793e39ca0: 1782731408
+    - fd743c7ac1b9fae498a443d793e39ca0: 54548522
+    - fd743c7ac1b9fae498a443d793e39ca0: -1692414514
+    - fd743c7ac1b9fae498a443d793e39ca0: 377845173
+    - fd743c7ac1b9fae498a443d793e39ca0: 1990295123
+    - 669ca67ba9fc3634db31a5ae0f6e6558: 959905555
+    - 669ca67ba9fc3634db31a5ae0f6e6558: 1359364985
+    - 669ca67ba9fc3634db31a5ae0f6e6558: 628926115
+    - 669ca67ba9fc3634db31a5ae0f6e6558: 1509709857
+    - 669ca67ba9fc3634db31a5ae0f6e6558: -1788797377
+    - af511d1f842fdb84e847becc2c849a26: -1488051709
+    - af511d1f842fdb84e847becc2c849a26: -231970535
+    - af511d1f842fdb84e847becc2c849a26: 1357457348
+    - af511d1f842fdb84e847becc2c849a26: 473752748
+    - af511d1f842fdb84e847becc2c849a26: -2068707149
+    - 6ff0d18f14c4f9a44a4dd444583b7799: 570468169
+    - 6ff0d18f14c4f9a44a4dd444583b7799: 283635082
+    - 6ff0d18f14c4f9a44a4dd444583b7799: -728815461
+    - 6ff0d18f14c4f9a44a4dd444583b7799: -618578145
+    - 6ff0d18f14c4f9a44a4dd444583b7799: -1299014203
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 1919052159, guid: f9f56d303a9c09d4fad2c7f20aa0fb9b, type: 3}
+  - {fileID: -1733884614, guid: f9f56d303a9c09d4fad2c7f20aa0fb9b, type: 3}
+  - {fileID: 2099297955, guid: f9f56d303a9c09d4fad2c7f20aa0fb9b, type: 3}
+  - {fileID: 92700472, guid: f9f56d303a9c09d4fad2c7f20aa0fb9b, type: 3}
+  - {fileID: -1657799990, guid: 1a417291315b24b4caa0b0afbac0e827, type: 3}
+  - {fileID: 90295232, guid: 1a417291315b24b4caa0b0afbac0e827, type: 3}
+  - {fileID: 634165416, guid: 1a417291315b24b4caa0b0afbac0e827, type: 3}
+  - {fileID: 1336736559, guid: 1a417291315b24b4caa0b0afbac0e827, type: 3}
+  - {fileID: 1453692270, guid: 1a417291315b24b4caa0b0afbac0e827, type: 3}
+  - {fileID: 2022781431, guid: d01bb1b105ef9694293f4b202c9c011b, type: 3}
+  - {fileID: -480123727, guid: d01bb1b105ef9694293f4b202c9c011b, type: 3}
+  - {fileID: 711486072, guid: d01bb1b105ef9694293f4b202c9c011b, type: 3}
+  - {fileID: 1447240577, guid: d01bb1b105ef9694293f4b202c9c011b, type: 3}
+  - {fileID: -1084673679, guid: d01bb1b105ef9694293f4b202c9c011b, type: 3}
+  - {fileID: 2094171987, guid: 5afe425570211bf4994cafb62b250fd6, type: 3}
+  - {fileID: 2000851915, guid: 5afe425570211bf4994cafb62b250fd6, type: 3}
+  - {fileID: 1423827956, guid: 5afe425570211bf4994cafb62b250fd6, type: 3}
+  - {fileID: 1389955079, guid: 5afe425570211bf4994cafb62b250fd6, type: 3}
+  - {fileID: -1173272922, guid: 5afe425570211bf4994cafb62b250fd6, type: 3}
+  - {fileID: -358011574, guid: 9ff73d6a2a8b89b41856e193e93187b9, type: 3}
+  - {fileID: -1390309588, guid: 9ff73d6a2a8b89b41856e193e93187b9, type: 3}
+  - {fileID: 926774833, guid: 9ff73d6a2a8b89b41856e193e93187b9, type: 3}
+  - {fileID: 527670919, guid: 9ff73d6a2a8b89b41856e193e93187b9, type: 3}
+  - {fileID: -2080721399, guid: 9ff73d6a2a8b89b41856e193e93187b9, type: 3}
+  - {fileID: 1782731408, guid: fd743c7ac1b9fae498a443d793e39ca0, type: 3}
+  - {fileID: 54548522, guid: fd743c7ac1b9fae498a443d793e39ca0, type: 3}
+  - {fileID: -1692414514, guid: fd743c7ac1b9fae498a443d793e39ca0, type: 3}
+  - {fileID: 377845173, guid: fd743c7ac1b9fae498a443d793e39ca0, type: 3}
+  - {fileID: 1990295123, guid: fd743c7ac1b9fae498a443d793e39ca0, type: 3}
+  - {fileID: 959905555, guid: 669ca67ba9fc3634db31a5ae0f6e6558, type: 3}
+  - {fileID: 1359364985, guid: 669ca67ba9fc3634db31a5ae0f6e6558, type: 3}
+  - {fileID: 628926115, guid: 669ca67ba9fc3634db31a5ae0f6e6558, type: 3}
+  - {fileID: 1509709857, guid: 669ca67ba9fc3634db31a5ae0f6e6558, type: 3}
+  - {fileID: -1788797377, guid: 669ca67ba9fc3634db31a5ae0f6e6558, type: 3}
+  - {fileID: -1488051709, guid: af511d1f842fdb84e847becc2c849a26, type: 3}
+  - {fileID: -231970535, guid: af511d1f842fdb84e847becc2c849a26, type: 3}
+  - {fileID: 1357457348, guid: af511d1f842fdb84e847becc2c849a26, type: 3}
+  - {fileID: 473752748, guid: af511d1f842fdb84e847becc2c849a26, type: 3}
+  - {fileID: -2068707149, guid: af511d1f842fdb84e847becc2c849a26, type: 3}
+  - {fileID: 570468169, guid: 6ff0d18f14c4f9a44a4dd444583b7799, type: 3}
+  - {fileID: 283635082, guid: 6ff0d18f14c4f9a44a4dd444583b7799, type: 3}
+  - {fileID: -728815461, guid: 6ff0d18f14c4f9a44a4dd444583b7799, type: 3}
+  - {fileID: -618578145, guid: 6ff0d18f14c4f9a44a4dd444583b7799, type: 3}
+  - {fileID: -1299014203, guid: 6ff0d18f14c4f9a44a4dd444583b7799, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - FG_Crops_Beet_0
+  - FG_Crops_Beet_1
+  - FG_Crops_Beet_2
+  - FG_Crops_Beet_3
+  - FG_Crops_Blue_Berry_1
+  - FG_Crops_Blue_Berry_0
+  - FG_Crops_Blue_Berry_3
+  - FG_Crops_Blue_Berry_2
+  - FG_Crops_Blue_Berry_4
+  - FG_Crops_Eggplant_2
+  - FG_Crops_Eggplant_3
+  - FG_Crops_Eggplant_0
+  - FG_Crops_Eggplant_1
+  - FG_Crops_Eggplant_4
+  - FG_Crops_Cabbage_3
+  - FG_Crops_Cabbage_2
+  - FG_Crops_Cabbage_1
+  - FG_Crops_Cabbage_0
+  - FG_Crops_Cabbage_4
+  - FG_Crops_Strawberry_3
+  - FG_Crops_Strawberry_2
+  - FG_Crops_Strawberry_1
+  - FG_Crops_Strawberry_0
+  - FG_Crops_Strawberry_4
+  - FG_Crops_Red_Grapes_4
+  - FG_Crops_Red_Grapes_0
+  - FG_Crops_Red_Grapes_1
+  - FG_Crops_Red_Grapes_2
+  - FG_Crops_Red_Grapes_3
+  - FG_Crops_Grapes_0
+  - FG_Crops_Grapes_1
+  - FG_Crops_Grapes_2
+  - FG_Crops_Grapes_3
+  - FG_Crops_Grapes_4
+  - FG_Crops_Tomato_4
+  - FG_Crops_Tomato_2
+  - FG_Crops_Tomato_3
+  - FG_Crops_Tomato_0
+  - FG_Crops_Tomato_1
+  - FG_Crops_Red_Pepper_4
+  - FG_Crops_Red_Pepper_0
+  - FG_Crops_Red_Pepper_1
+  - FG_Crops_Red_Pepper_2
+  - FG_Crops_Red_Pepper_3
+  m_RenderDataMap: {}
+  m_Tag: Growth
+  m_IsVariant: 0

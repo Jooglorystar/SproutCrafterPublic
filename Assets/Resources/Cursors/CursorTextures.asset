@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c311b2c83f15daf4e85eed66316b6b52, type: 3}
+  m_Name: CursorTextures
+  m_EditorClassIdentifier: 
+  Cursors:
+  - cursorTexture: {fileID: 2800000, guid: 743891a55889d814f818804661c7656a, type: 3}
+    cursorType: 0
+    hotspot: {x: 3, y: 1}
+  - cursorTexture: {fileID: 2800000, guid: c9888bf5f2951b84295f077ddbb6b3ca, type: 3}
+    cursorType: 1
+    hotspot: {x: 0, y: 0}
+  - cursorTexture: {fileID: 2800000, guid: d2e87220aa8122f4fb127dff3733e79c, type: 3}
+    cursorType: 2
+    hotspot: {x: 0, y: 0}
+  - cursorTexture: {fileID: 2800000, guid: 73b3d60ad6c3f8e46acef321db5c79c7, type: 3}
+    cursorType: 3
+    hotspot: {x: 0, y: 4}
+  - cursorTexture: {fileID: 2800000, guid: ec741c6f40cb50747b374f27cd94246a, type: 3}
+    cursorType: 4
+    hotspot: {x: 0, y: 0}
+  - cursorTexture: {fileID: 2800000, guid: fffcdda8277557f48bb927192d556fdc, type: 3}
+    cursorType: 5
+    hotspot: {x: 0, y: 7}
+  - cursorTexture: {fileID: 2800000, guid: 34a2f3bc5984936418f9c40d9be04c9d, type: 3}
+    cursorType: 6
+    hotspot: {x: 0, y: 0}
+  - cursorTexture: {fileID: 2800000, guid: 993219c21f069da41b6bf51dcac6a204, type: 3}
+    cursorType: 7
+    hotspot: {x: 0, y: 0}

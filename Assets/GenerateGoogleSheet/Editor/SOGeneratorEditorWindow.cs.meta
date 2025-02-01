@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 9e13e3a196c44ab4d94c64593d0bb539
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_ViewDataDictionary: {instanceID: 0}
+  - googleSheetSO: {fileID: 11400000, guid: 8a0551a6edf46844cb8a6acbdecf6250, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

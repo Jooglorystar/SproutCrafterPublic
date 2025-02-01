@@ -1,0 +1,2 @@
+﻿itemCode,itemName,itemDescription,itemSprite,buyPrice,sellPrice,isCanStack,maxStack,dropItemPrefab,itemType,linkedCropID,maxGrowthStage,growTime,plantingSeasons,TileType,minYield,maxYield
+201,PotatoSeed,Grows a potato plant,Images/Crops/Tomato,10,5,TRUE,99,Prefabs/Crops/PotatoSeed,Seed,101,2,3,Spring,Soil,1,3
